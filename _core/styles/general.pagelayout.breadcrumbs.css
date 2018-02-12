@@ -1,0 +1,21 @@
+nav.breadcrumbs{
+    display: block;
+}
+
+.breadcrumbs ul{
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumbs ul li{
+    list-style-type: none;
+    padding: 0.25em;
+}
+
+.breadcrumbs ul li a {
+    color: #002f6c;
+}
+
+&:visited{
+    color: #002f6c;
+}

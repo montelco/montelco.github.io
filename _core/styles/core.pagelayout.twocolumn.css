@@ -1,0 +1,25 @@
+.two_column{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:1em;
+    padding-bottom:1em;
+}
+
+.column_left {
+    flex:1;
+    padding-left:1em;
+    padding-right:0.75em;
+}
+
+.column_right {
+    padding-left: 0.75em;
+    flex:1;
+    padding-right:1em;
+    justify-content:center;
+    align-items:center;
+}
+
+.two_column pullquote{
+    display: none;
+}

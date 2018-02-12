@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px){
+    header logo{
+        padding-left: unset;
+        width: 6.5vw;
+    }
+
+    header quicklinks{
+        max-height: unset;
+    }
+
+    quicklinks .ql > div{
+        padding: 0.5rem 1.5rem;
+    }
+}

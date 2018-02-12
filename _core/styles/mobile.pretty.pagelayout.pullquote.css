@@ -1,0 +1,39 @@
+pullquote{
+    min-height: 1.45em;
+    min-width: 8vw;
+    max-width: 35vw;
+    border-top: solid 0.25rem;
+    border-bottom: solid 0.25rem;
+    font-weight: 700;
+    font-style: italic;
+    word-wrap: break-word;
+    text-align: justify;
+    display: inline;
+    padding: 1em 0.25em;
+}
+
+.oneTwoFive{
+    font-size: 1.25em;
+}
+.oneFive{
+    font-size: 1.5em;
+}
+.oneSevenFive{
+    font-size: 1.75em;
+}
+.twoZero{
+    font-size: 2.0em;
+}
+.twoTwoFive{
+    font-size: 2.25em;
+}
+
+.float-left{
+    float: left;
+    margin-right: 2vw;
+}
+
+.float-right{
+    float: right;
+    margin-left: 2vw;
+}

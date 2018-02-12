@@ -1,0 +1,18 @@
+page #page-content .bottom-divider{
+    min-height: 6vh;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rcgc-blue{
+    border-color: #002f6c;
+}
+
+.rcgc-yellow{
+    border-color: #eaaa00;
+}

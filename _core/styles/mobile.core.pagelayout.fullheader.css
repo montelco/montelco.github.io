@@ -1,0 +1,96 @@
+page page-header{
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(128,173,206,0.65) 0%, rgba(0,47,108,0.65) 100%), url(https://ucarecdn.com/3a07c87a-4e50-4df4-88e8-4c4a9a7e8469/-/grayscale/-/progressive/yes/-/quality/lightest/-/preview/2000X2000);
+    background: -webkit-linear-gradient(top, rgba(128,173,206,0.65) 0%,rgba(0,47,108,0.65) 100%), url(https://ucarecdn.com/3a07c87a-4e50-4df4-88e8-4c4a9a7e8469/-/grayscale/-/progressive/yes/-/quality/lightest/-/preview/2000X2000), ;
+    background: linear-gradient(to bottom, rgba(128,173,206,0.65) 0%,rgba(0,47,108,0.65) 100%), url(https://ucarecdn.com/3a07c87a-4e50-4df4-88e8-4c4a9a7e8469/-/grayscale/-/progressive/yes/-/quality/lightest/-/preview/2000X2000);
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+page page-title{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    flex: 0 1 auto;
+    font-family: Open Sans, sans-serif;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    padding: 1rem 4rem;
+    font-size: 1.85em;
+    word-wrap: break-word;
+}
+
+page #page-content{
+    max-width: 85vw;
+    min-height: 30vh;
+    padding: 5vh 10vw;
+}
+
+page .sans{
+    font-family: Open Sans, sans-serif;
+}
+
+page #page-content p{
+    line-height: 2.15em;
+}
+
+.font-14 {
+    font-size: 14pt;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#results{
+    color: grey;
+    font-size: 0.75em;
+    font-family: Open Sans, sans-serif;
+}
+
+page-header page-content-2{    
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    margin-top: 1em;
+    max-width: 85vw;
+    min-height: 15vh;
+    max-height: 40vh;
+}
+
+page-header page-content-2 announcement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(45,45,45,0.75);
+    color: white;
+    padding: 0.5rem;
+    min-height: 15vh;
+    margin-bottom: 1vh;
+    overflow: hidden;
+}
+
+page-header page-content-2 announcement pc2-header{
+    opacity: 0.95;
+    letter-spacing: 1px;
+    margin-bottom: 0.75em;
+}
+
+page-header page-content-2 announcement pc2-body{
+    opacity: 0.90;
+}
+
+page-header page-content-2 announcement-byline{
+    text-align: center;
+    background: rgba(45,45,45,0.75);
+    color: white;
+    padding: 0.5rem 0rem;
+}

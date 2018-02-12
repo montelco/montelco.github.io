@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuzzy Search Demo</title>
+</head>
+<body>
+    <style>
+        .question{
+            display: block;
+            font-weight: bold;
+        }
+        .answer{
+            display: block;
+            font-style: italic;
+        }
+        p{
+            border-bottom: 1px solid black;
+        }
+    </style>
+    <section id="searchable">
+        <input id="searchQuery" onkeyup="search()" placeholder="Filter your results">
+        <p>
+            <span class="question">Who are you?</span>
+            <span class="answer">I am Cory, the binary wizard that made this happen.</span>
+        </p>
+        <p>
+            <span class="question">What is your favourite colour?</span>
+            <span class="answer">As a lover of nature, I love green. Orange is cool too, I guess.</span>
+        </p>
+        <p>
+            <span class="question">Do you like to eat food?</span>
+            <span class="answer">As a human man, and not a robot, I enjoy consuming foods as a non-android human does. Such foods include oranges, bananas, apples, and avocado.</span>
+        </p>
+        <p>
+            <span class="question">What mobile platform do you like better: iOS or Android?</span>
+            <span class="answer">My operating system...I mean the one I use for a phone and not my internal operating system (of which I don't have one as a human man) is preferably Android.</span>
+        </p>
+        <p>
+            <span class="question">Why did you do this?</span>
+            <span class="answer">To test if Vue.JS can work as an AJAX fuzzy search tool on pages.</span>
+        </p>
+        <p>
+            <span class="question">How can I contact you?</span>
+            <span class="answer">I communicate in binary...or human words as normal humans do.</span>
+        </p>
+        <p>
+            <span class="question">Where do you live?</span>
+            <span class="answer">I'd like to believe that I'm both everywhere and nowhere.</span>
+        </p>
+        <p>
+            <span class="question">What do you do for fun?</span>
+            <span class="answer">Fun?</span>
+        </p>
+        <p>
+            <span class="question">Are you a real person?</span>
+            <span class="answer">Of course I am a real human man. See! Could an android lie?</span>
+        </p>
+        <p>
+            <span class="question">What now?</span>
+            <span class="answer">I don't understand this question. Prepare for destruction.</span>
+        </p>
+    </section>
+    <script>
+        function search() {
+            var input, filter, searchable, question, answer, i;
+            input = document.getElementById("searchQuery");
+            filter = input.value.toUpperCase();
+            searchable = document.getElementById("searchable");
+            p = searchable.getElementsByTagName("p");
+            for (i = 0; i < p.length; i++) {
+                question = p[i].getElementsByTagName("span")[0];
+                answer = p[i].getElementsByTagName("span")[1];
+                if (question.innerHTML.toUpperCase().indexOf(filter) > -1 || answer.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    p[i].style.display = "";
+                } else {
+                    p[i].style.display = "none";
+
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>

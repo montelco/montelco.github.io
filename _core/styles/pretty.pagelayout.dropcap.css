@@ -1,0 +1,8 @@
+page #page-content section:nth-of-type(1)  p:first-child:first-letter {
+  color: #002f6c;
+  float: left;
+  font-family: sans-serif;
+  font-size: 6em;
+  padding-right: 0.5rem;
+  padding-bottom: 0.25rem;
+}
