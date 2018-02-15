@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="_core/styles/general.pagelayout.fab-modal.css">
     <link rel="stylesheet" href="_core/styles/general.pagelayout.fab-form.css">
+    <link rel="stylesheet" href="_core/styles/mobile.general.navigation-shrink.css" media="screen and (max-width: 767px)">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"  media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="_core/styles/mobile.core.navigation.css">
     <meta name="theme-color" content="#002f6c">
     <title>RCGC Demo Site (Project Silk) V1: TWO COLUMN</title>
 </head>
@@ -27,7 +30,7 @@
         <header id="header" class="mobile-sticky">
             <section class="flex-header space-between">
                 <logo>
-                    <img src="assets/rcgc-torch.svg" alt="RCGC Torch">
+                    <img src="https://montelco.github.io/assets/rcgc-torch.svg" alt="RCGC Torch">
                 </logo>
                 <nav>
                     <ul>
@@ -42,8 +45,55 @@
                     <div class="ql"><div>Apply</div></div>
                     <div class="ql"><div>Portal</div></div>
                 </quicklinks>
+                <div class="mobile-nav-open"> </div>
+                <div class="mobile-nav-close"> </div>
             </section>
         </header>
+        <div id="mobile-nav-plate"> 
+            <div id="mobile-nav">
+                <ul class="main-nav">
+                    <li> 
+                        <a href="index-feature-parallax.html">Parallax</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                    <li> 
+                        <a href="index-fullheader.html">Single Column</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                    <li> 
+                        <a href="index-twocolumn.html">Two Column</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                    <li> 
+                        <a href="index-subsite-home.html">Homepage</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                    <li> 
+                        <a href="index-tabbed.html">Tabbed</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="sidebar-links-parent">
+                    <ul class="sidebar-links">
+                        <div class="mobile-nav-headers">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section id="mobile-bottom-nav">
+            <section id="mbn-container">
+                <i class="material-icons">home</i>
+                <i class="material-icons">description</i>
+                <i class="material-icons">search</i>
+            </section>
+        </section>
         <page>
             <page-header role="main">
                 <page-header-left>
@@ -213,5 +263,6 @@
     </magazine>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="_core/scripts/pretty.pagelayout.fullheader.parallax-title.js"></script>
+    <script src="_core/scripts/mobile-nav.js"></script>
 </body>
 </html>
