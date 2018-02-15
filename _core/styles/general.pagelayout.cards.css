@@ -69,6 +69,12 @@ card-title span.card-title{
     display: block;
 }
 
+@media screen  and (max-width: 600px){
+    card-title span.card-title{
+        font-size: 0.85em;
+    }
+}
+
 card-title .card-byline{
     padding-top: 1rem;
     max-width: 200px;
@@ -126,9 +132,5 @@ a.underlined:hover::after, a.underlined:focus::after{
 @media screen and (max-width: 767px){
     .flex-column{
         flex-direction: column;
-    }
-
-    card-title .card-byline{
-        max-width: 33vw;
     }
 }

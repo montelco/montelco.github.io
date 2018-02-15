@@ -103,14 +103,14 @@ label.tab-title-names {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  color: rgba(248,248,253,0.875);
+  color: rgba(248,248,253,0.95);
   border: 1px solid transparent;
   transition: 0.25s ease;
   box-shadow: 0em -0.5em 0.75em rgba(50,50,50,0.075);
 }
 
 label.tab-title-names:hover {
-  color: #888;
+  color: hsla(214, 100%, 6%, 1);
   cursor: pointer;
 }
 

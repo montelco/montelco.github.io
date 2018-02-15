@@ -1,0 +1,4 @@
+/* Whitespacing Between Current Nav Heading*/
+ul.static.root > li:not(:last-child){
+    margin-bottom: 2em;
+}

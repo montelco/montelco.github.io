@@ -107,7 +107,7 @@
   #mobile-nav .main-nav li:nth-of-type(1)  {
     margin-top: 5px;  
   }
-  #mobile-nav , a:first-of-type { 
+  #mobile-nav , a:first-of-type:not(.underlined) { 
     display: block!important;
   }
   section#mobile-bottom-nav{
